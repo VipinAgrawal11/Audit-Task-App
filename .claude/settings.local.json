@@ -1,7 +1,19 @@
 {
   "permissions": {
     "allow": [
-      "PowerShell(npm run build 2>&1)"
+      "PowerShell(npm run build 2>&1)",
+      "Bash(npx tsc *)",
+      "Read(//c/Users/User/Desktop/claude/**)",
+      "Bash(ls -la \"compliance management app\")",
+      "Bash(rmdir \"Task management app\")",
+      "Bash(ls \"compliance management app\"/.git)",
+      "Bash(mv -f \"compliance management app/.claude/\"* \"Task management app/.claude/\")",
+      "Bash(rmdir \"compliance management app/.claude\")",
+      "Bash(git clean *)",
+      "Bash(git check-ignore *)",
+      "Bash(git restore *)",
+      "Bash(npm install *)",
+      "Bash(npm run *)"
     ]
   }
 }
